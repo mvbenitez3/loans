@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
         - name: loans
-          image: jhonattan25/app-microservicios-loans:1.0.0
+          image: jhonattan25/app-microservicios-loans:tagversion
           ports:
           - containerPort: 8090
           env:
